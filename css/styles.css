@@ -1,0 +1,28 @@
+
+
+
+/* Table of contents
+    1. VARIABLES AND LINKS
+    2. GENERAL STRUCTURE 
+    3. MAIN
+        4.1 DESCRIPTION
+        4.2 STARS
+        4.3 REVIEW
+    4. PSEUDO
+    5. MEDIA QUERIES
+*/
+
+
+/* ==========
+    1. VARIABLES AND LINKS
+========== */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --color-background-purple: hsl(300, 43%, 22%);
+    --color-background-light-pink: hsl(300, 54%, 80%);
+    --color-fonts-white: hsl(0, 0%, 100%);
+    --color-fonts-grey: hsl(303, 10%, 53%);
+    --color-fonts-pink: hsl(333, 80%, 67%);
+}
+
