@@ -4,6 +4,9 @@
 /* Table of contents
     1. VARIABLES AND LINKS
     2. GENERAL STRUCTURE 
+        2.1 DESCRIPTION
+        2.2 STARS
+        2.3 REVIEW
     3. MAIN
         4.1 DESCRIPTION
         4.2 STARS
@@ -35,7 +38,7 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
-/* SECTION DESCRIPTION */
+/* DESCRIPTION */
 h1 {
     color: var(--color-various-purple);
     font-size: 2rem;
@@ -47,7 +50,7 @@ h1 {
     line-height: 22px;
 }
 
-/* SECTION STARS */
+/* STARS */
 #stars-section h3 {
     color: var(--color-various-purple);
     background-color: var(--color-background-light-pink);
@@ -56,7 +59,7 @@ h1 {
     color: orange;
 }
 
-/* SECTION REVIEW */
+/* REVIEW */
 #review {
     background-color: var(--color-various-purple);
 }
@@ -89,6 +92,9 @@ h1 {
     margin: 0px 30px;
 }
 
+/* 
+    4.2 STARS
+*/
 
 
 
