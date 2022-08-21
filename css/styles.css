@@ -13,6 +13,9 @@
         4.3 REVIEW
     4. PSEUDO
     5. MEDIA QUERIES
+        5.1 DESCRIPTION
+        5.2 STARS
+        5.3 REVIEW
 */
 
 
@@ -93,7 +96,7 @@ h1 {
 ========== */
 
 /* 
-    4.1 DESCRIPTION
+    3.1 DESCRIPTION
 */
 #description {
     text-align: center;
@@ -106,7 +109,7 @@ h1 {
 }
 
 /* 
-    4.2 STARS
+    3.2 STARS
 */
 #stars-section {
     margin-top: 35px;
@@ -125,7 +128,7 @@ h1 {
 }
 
 /* 
-    4.3 REVIEW
+    3.3 REVIEW
 */
 #review-section {
     margin-top: 60px;
@@ -163,5 +166,12 @@ h1 {
 
 
 /* ==========
-    5. MEDIA
+    5. MEDIA QUERIES
 ========== */
+@media (max-width: 1080px) {
+    
+    /* 
+    5.1 DESCRIPTION
+    */
+
+}
