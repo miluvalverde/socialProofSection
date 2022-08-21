@@ -72,18 +72,18 @@ h1 {
 }
 
 /* REVIEW */
-#review {
+.review {
     background-color: var(--color-various-purple);
 }
-#review h3 {
+.review h3 {
     color: var(--color-fonts-white);
     font-weight: 700;
 }
-#review h4 {
+.review h4 {
     color: var(--color-fonts-pink);
     font-weight: 400;
 }
-#review p {
+.review p {
     color: var(--color-fonts-white);
     line-height: 22px;
 }
