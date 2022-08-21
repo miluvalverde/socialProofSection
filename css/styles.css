@@ -19,10 +19,62 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
 :root {
-    --color-background-purple: hsl(300, 43%, 22%);
-    --color-background-light-pink: hsl(300, 54%, 80%);
+    --color-background-light-pink: hsla(300, 25%, 88%, 0.603);
     --color-fonts-white: hsl(0, 0%, 100%);
     --color-fonts-grey: hsl(303, 10%, 53%);
     --color-fonts-pink: hsl(333, 80%, 67%);
+    --color-various-purple: hsl(300, 43%, 22%);
 }
+
+
+
+/* ==========
+    2. GENERAL STRUCTURE
+========== */
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* SECTION DESCRIPTION */
+h1 {
+    color: var(--color-various-purple);
+    font-size: 2rem;
+    font-weight: 700;
+}
+#description p {
+    color: var(--color-fonts-grey);
+    font-weight: 500;
+}
+
+/* SECTION STARS */
+#stars-section h3 {
+    color: var(--color-various-purple);
+    background-color: var(--color-background-light-pink);
+}
+.fa-star {
+    color: orange;
+}
+
+/* SECTION REVIEW */
+#review {
+    background-color: var(--color-various-purple);
+}
+#review h3 {
+    color: var(--color-fonts-white);
+    font-weight: 700;
+}
+#review h4 {
+    color: var(--color-fonts-pink);
+}
+#review p {
+    color: var(--color-fonts-white);
+}
+
+
+
+
+
+
+
+
 
