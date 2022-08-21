@@ -44,6 +44,7 @@ h1 {
 #description p {
     color: var(--color-fonts-grey);
     font-weight: 500;
+    line-height: 22px;
 }
 
 /* SECTION STARS */
@@ -71,8 +72,22 @@ h1 {
 }
 
 
+/* ==========
+    3. MAIN
+========== */
 
-
+/* 
+    4.1 DESCRIPTION
+*/
+#description {
+    text-align: center;
+}
+#description h1 {
+    margin: 50px 50px 15px;
+}
+#description p {
+    margin: 0px 30px;
+}
 
 
 
