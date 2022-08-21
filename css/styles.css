@@ -101,7 +101,7 @@ h1 {
 #description {
     text-align: center;
 }
-#description h1 {
+h1 {
     margin: 15px 50px;
 }
 #description p {
@@ -168,10 +168,64 @@ h1 {
 /* ==========
     5. MEDIA QUERIES
 ========== */
-@media (max-width: 1080px) {
-    
+@media (min-width: 800px) {
+    body {
+        background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 70px;
+    }
+
     /* 
     5.1 DESCRIPTION
     */
+    #description {
+        text-align: left;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-left: 30px;
+        max-width: 310px;
+    }
+    #description p {
+        max-width: 390px;
+    }
+
+    /* 
+    5.2 STARS
+    */
+    .stars-section {
+        max-width: 432px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fa-star, .stars-section h3 {
+        display: inline-block;
+    }
+    .stars-section h3 {
+        margin-left: 15px;
+        min-width: 238px;
+    }
+    .second-stars {
+        margin-left: 50px;
+    }
+    .third-stars {
+        margin-left: 0px;
+    }
+
+
+
+
+    /* 
+    5.2 REVIEW
+    */
+    #review-section {
+        grid-column: 1/3;
+    }
+
 
 }
