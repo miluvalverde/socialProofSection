@@ -131,7 +131,7 @@ h1 {
 #review-section {
     margin-top: 60px;
 }
-#review {
+.review {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ h1 {
     padding: 30px;
     transition: all .2s ease-in-out;
 }
-#review img {
+.review img {
     border-radius: 50%;
     height: 60px;
     width: 60px;
@@ -163,7 +163,7 @@ h1 {
     background-color: var(--color-various-purple);
     color: var(--color-fonts-white);
 }
-#review:hover {
+.review:hover {
     transform: scale(1.1);
 }
 
@@ -234,7 +234,7 @@ h1 {
         grid-column: 1/3;
         margin-left: 0px;
     }
-    #review {
+    .review {
         width: 330px;
     }
     .second-review {
